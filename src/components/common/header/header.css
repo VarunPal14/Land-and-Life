@@ -1,0 +1,94 @@
+header{
+    background-color: rgb(109, 63, 3);
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0 22 84/ 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+header img{
+    width: 170px;
+    
+}
+
+header a{
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+header a:hover{
+    color: #0c0c0c;
+}
+
+header span{
+    width: auto;
+    padding: 0px 6px;
+    background-color: burlywood;
+    border-radius: 50px;
+    color: black;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+header h4{
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+header .toggle{
+    display: none;
+}
+
+@media (max-width: 768px){
+    header{
+        height: auto;
+        padding: 10px 0;
+    }
+    header img{
+        width: 120px;
+    }
+    header a{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    header .nav ul{
+        display: flex;
+        position: absolute;
+        background-color: rgb(109, 63, 3); /* Match header background */
+        top: 60px; /* Position below the header */
+        right: 0;
+        width: 100%; /* Full width */
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+     header .nav ul li {
+        margin: 10px 0; /* Vertical spacing between items */
+    }
+
+    header a {
+        margin-left: 0; /* Reset margin */
+        display: block; /* Stack links vertically */
+    }
+} 
+@media (max-width: 480px) {
+    header img {
+        width: 100px; /* Further reduce logo size */
+    }
+
+    header a {
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    header h4 {
+        font-size: 16px; /* Adjust font size for headings */
+        margin-right: 5px; /* Reduce margin */
+    }
+    header span {
+        padding: 0 2px; /* Adjust padding for spans */
+        font-size: 12px; /* Adjust font size */
+    }
+}

@@ -1,0 +1,90 @@
+.contact form div{
+    display: flex;
+}
+.contact textarea{
+    border: 2px solid rgba(0,0,0,0.1);
+    width: 950px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.conatct input{
+    width: 100% ;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.contact form{
+    padding: 30px;
+}
+.contact h4{
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(109, 63, 3);
+}
+.contact .row .map{
+    flex:1 1 42rem;
+    width: 100%;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+}
+
+
+/* @media screen and(max-width:768px) {
+    .contact h4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact form div{
+        flex-direction: column;
+    }    
+    .contact input{
+        width: 100%;
+    }
+} */
+
+@media (max-width: 768px) {
+    .contact textarea {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* Remove margin-right */
+    }
+
+    .contact form {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .contact h4 {
+        font-size: 24px; /* Reduce font size */
+    }
+    .contact .row .map {
+        flex: 1 1 auto; /* Adjust flex basis */
+        padding: 1rem; /* Reduce padding */
+    }
+}
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .contact textarea {
+        width: 100%; /* Full width */
+        margin-bottom: 15px; /* Reduce bottom margin */
+    }
+
+    .contact input {
+        width: 100%; /* Full width */
+        margin-right: 0; /* Remove margin-right */
+    }
+    .contact form {
+        padding: 15px; /* Further reduce padding */
+    }
+
+    .contact h4 {
+        font-size: 20px; /* Further reduce font size */
+    }
+
+    .contact .row .map {
+        flex: 1 1 auto; /* Adjust flex basis */
+        padding: 0.5rem; /* Further reduce padding */
+    }
+}

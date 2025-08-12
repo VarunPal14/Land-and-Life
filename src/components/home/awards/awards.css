@@ -1,0 +1,34 @@
+.awards{
+   background-color:rgba(250, 235, 215, 0.575);
+   color: rgba(110, 53, 6, 0.854); 
+   text-align: center;
+}
+
+.awards .heading{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.awards .heading p{
+    color: rgba(110, 53, 6, 0.854);
+}
+.awards .heading h1{
+    color: rgba(110, 53, 6, 0.854);
+    font-size: 30px;
+    font-weight: 400;
+}
+.awards .icon{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(148, 2, 2, 0.146);
+    border-radius: 4% 50%;
+    font-size: 50px;
+    color: rgba(110, 53, 6, 0.854);
+}
+.awards h1{
+    color: grey;
+    
+}

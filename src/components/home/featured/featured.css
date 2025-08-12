@@ -1,0 +1,19 @@
+.featured{
+    background-color: rgba(250, 235, 215, 0.575);
+}
+.featured .box{
+    box-shadow: 10px 10px 20px 0 rgba(110, 53, 6, 0.854);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.featured img{
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
+.featured .container{
+    color: rgba(110, 53, 6, 0.854);
+}

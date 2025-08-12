@@ -1,0 +1,35 @@
+.recent{
+    background-color: rgba(250, 235, 215, 0.575);
+}
+.recent .text{
+    padding: 30px;
+}
+
+.recent .category span{
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+.recent .category{
+    font-size: 20px;
+    color: #bec7d8;
+}
+
+.recent p{
+    color: #72809d;
+}
+
+.recent .button{
+    border-top:1px solid;
+    padding: 10px 30px;
+}
+
+.recent .container{
+    color: rgb(109, 63, 3);
+}
+.recent .box{
+    box-shadow: 10px 10px 20px 0 rgba(110, 53, 6, 0.854);
+    border-radius: 6px;
+}
